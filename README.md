@@ -96,7 +96,7 @@ The dashboard includes:
 - Pricing Alignment Scatter Chart
 - Available Quantity Line Chart
 - Overpriced vs Underpriced SKU tables
-- 
+ 
 <img width="1308" height="732" alt="Screenshot 2025-11-10 211904" src="https://github.com/user-attachments/assets/ed348f72-e052-48c6-a91d-7d278a7ec0a2" />
 
 <img width="1305" height="729" alt="Screenshot 2025-11-10 211848" src="https://github.com/user-attachments/assets/d216ad38-4bd8-448c-b76f-71e4e8ab30a2" />
