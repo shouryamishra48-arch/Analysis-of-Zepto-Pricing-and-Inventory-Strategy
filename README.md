@@ -96,7 +96,21 @@ The dashboard includes:
 - Pricing Alignment Scatter Chart
 - Available Quantity Line Chart
 - Overpriced vs Underpriced SKU tables
- 
+## Challenges and Solutions
+1️⃣ Challenge — Python Dependency & Module Errors
+- Modules like sqlite3 and incorrectly typed package names caused installation errors during environment setup.
+✅ Solution:
+- Verified the Python version, removed unnecessary installations, and relied on built-in libraries while using correct installation commands for required packages.
+2️⃣ Challenge — MySQL Import Errors (“Unknown column ‘None’…”)
+- Importing the cleaned dataset into MySQL Workbench failed due to datatype mismatches, invalid NULL values, and unexpected headers.
+✅ Solution:
+- Re-exported the dataset with standardized column names, correct datatypes, and without additional metadata. Successfully re-imported using a corrected CSV structure.
+3️⃣ Challenge — Incorrect Aggregation in Power BI Visuals
+- Power BI incorrectly interpreted Boolean fields (out_of_stock) as percentages and used averages instead of sums, leading to misleading visuals (e.g., all values showing 100%).
+✅ Solution:
+- Created strict numeric columns (e.g., stockout_flag), applied explicit aggregation rules, and rebuilt visuals using validated measures for accurate insights.
+
+   
 <img width="1308" height="732" alt="Screenshot 2025-11-10 211904" src="https://github.com/user-attachments/assets/ed348f72-e052-48c6-a91d-7d278a7ec0a2" />
 
 <img width="1305" height="729" alt="Screenshot 2025-11-10 211848" src="https://github.com/user-attachments/assets/d216ad38-4bd8-448c-b76f-71e4e8ab30a2" />
