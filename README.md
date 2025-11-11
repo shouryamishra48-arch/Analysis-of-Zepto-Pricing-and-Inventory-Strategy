@@ -85,7 +85,7 @@ Built a 3-page business insights dashboard:
     - Categories like Munchies, Cooking Essentials, and Packaged Food show high stockout rates
     - Majority of categories have low average available quantities, indicating replenishment delays
     - Product-level low-stock alerts enable proactive inventory planning
-  ## Challenges and Solutions
+  ## :💡 Challenges and Solutions
 1️⃣ Challenge — Python Dependency & Module Errors
 - Modules like sqlite3 and incorrectly typed package names caused installation errors during environment setup.
 ✅ Solution:
