@@ -93,18 +93,7 @@ Built a 3-page business insights dashboard:
     - Categories like Munchies, Cooking Essentials, and Packaged Food show high stockout rates
     - Majority of categories have low average available quantities, indicating replenishment delays
     - Product-level low-stock alerts enable proactive inventory planning
-## 📸 Visualizations
-
-The dashboard includes:
-- KPI Cards
-- Column Charts
-- Category Slicers
-- Low-Stock Summary Table
-- Price-per-gram distribution
-- Pricing Alignment Scatter Chart
-- Available Quantity Line Chart
-- Overpriced vs Underpriced SKU tables
-## Challenges and Solutions
+  ## Challenges and Solutions
 1️⃣ Challenge — Python Dependency & Module Errors
 - Modules like sqlite3 and incorrectly typed package names caused installation errors during environment setup.
 ✅ Solution:
@@ -117,6 +106,18 @@ The dashboard includes:
 - Power BI incorrectly interpreted Boolean fields (out_of_stock) as percentages and used averages instead of sums, leading to misleading visuals (e.g., all values showing 100%).
 ✅ Solution:
 - Created strict numeric columns (e.g., stockout_flag), applied explicit aggregation rules, and rebuilt visuals using validated measures for accurate insights.
+## 📸 Visualizations
+
+The dashboard includes:
+- KPI Cards
+- Column Charts
+- Category Slicers
+- Low-Stock Summary Table
+- Price-per-gram distribution
+- Pricing Alignment Scatter Chart
+- Available Quantity Line Chart
+- Overpriced vs Underpriced SKU tables
+
 
    
 <img width="1308" height="732" alt="Screenshot 2025-11-10 211904" src="https://github.com/user-attachments/assets/ed348f72-e052-48c6-a91d-7d278a7ec0a2" />
